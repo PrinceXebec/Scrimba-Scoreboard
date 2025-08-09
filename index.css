@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Cursed Timer;
+  src: url("cursed-timer.ttf");
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1b244a;
+  border: 2px solid transparent;
+  width: 575px;
+  height: 385px;
+}
+
+.team-board {
+  font-family: Cursed Timer;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 126.67px;
+  letter-spacing: 0%;
+}
+
+.team {
+  font-family: Verdana;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 35.89px;
+  color: #eeeeee;
+  margin: 68px 0px 20px auto;
+}
+
+.score {
+  width: 155;
+  height: 120;
+  opacity: 1;
+  border-radius: 5px;
+  background-color: #080001;
+  margin: 21px auto;
+  padding: 18px auto;
+  width: 155px;
+  height: 120px;
+  color: #f94f6d;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 45px;
+}
+
+.pt-btn {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  margin: 0px 4px;
+  padding: 0px 0px;
+  background-color: #1b244a;
+  color: #9aabd8;
+  font-family: Cursed Timer;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#new-game {
+  text-align: center;
+  width: 155px;
+  height: 45px;
+}
+
+.leading {
+  border: 1px solid gold;
+}
