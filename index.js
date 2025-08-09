@@ -44,16 +44,7 @@ let startNewGame = document.getElementById("new-game")
 function newGame() {
     homeScore.textContent = 0
     guestScore.textContent = 0
+    homeCount = 0
+    guestCount = 0
     console.log(startNewGame)
-}
-
-function highlightLeader() {
-    const homeEl = document.getElementById("home-team")
-    const guestEl = document.getElementById("guest-team")
-
-    if (homeCount > guestCount) {
-        homeEl.classList.toggle("leading")
-    } else if (guestCount > homeCount) {
-        guestEl.classList.toggle("leading")
-    }
 }
